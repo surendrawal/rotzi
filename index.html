@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotzi</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="myFunc()">
+    <div id="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+   <div id="main">
+    <section class="top">   
+        <div class="container">
+        <header class="text-light py-2 d-sm-none d-lg-flex justify-content-between border-bottom fs-6">
+            <div class="left">
+            <p><i class="fas fa-phone"></i>+ 0511 00 3322 22 &nbsp;&nbsp;&nbsp;&nbsp;
+           <i class="fas fa-envelope"></i>info@rotzi.com
+            </p>
+        </div>
+        <div class="right">
+            <i class="fab fa-linkedin-in ps-3"></i>
+            <i class="fab fa-instagram-square ps-3"></i>
+            <i class="fab fa-facebook-f ps-3"></i>
+            <i class="fab fa-twitter ps-3"></i>
+        </div>
+        </header>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+              <a class="navbar-brand" href="#" id="pp"><img src="img/logo.png" alt="" width="110"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-uppercase" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-lg-auto fs-6">
+                 <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     HOME
+                    </a>
+                    <ul class="dropdown-menu lh-lg" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">HOME SEO</a></li>
+                      <li><a class="dropdown-item" href="#">HOME PPC</a></li>
+                      <li><a class="dropdown-item" href="#">HOME MMS</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     PAGES
+                    </a>
+                    <ul class="dropdown-menu lh-lg" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">About us</a></li>
+                      <li><a class="dropdown-item" href="#">careers</a></li>
+                      <li><a class="dropdown-item" href="#">Coming soon</a></li>
+                       <li><a class="dropdown-item" href="#">Customers</a></li>
+                       <li><a class="dropdown-item" href="#">Error Page</a></li>
+                         <li><a class="dropdown-item" href="#">Faq</a></li>
+                          <li><a class="dropdown-item" href="#">Profile</a></li>
+                           <li><a class="dropdown-item" href="#">Team</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      SERVICES
+                    </a>
+                    <ul class="dropdown-menu lh-lg" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Sec</a></li>
+                      <li><a class="dropdown-item" href="#">ppc </a></li>
+                      <li><a class="dropdown-item" href="#">smm </a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      SHOP
+                    </a>
+                    <ul class="dropdown-menu lh-lg" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Product list</a></li>
+                      <li><a class="dropdown-item" href="#">single product</a></li>
+                      <li><a class="dropdown-item" href="#">Cart</a></li>
+                      <li><a class="dropdown-item" href="#">Checkout</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      PORTFOLIO
+                    </a>
+                    <ul class="dropdown-menu lh-lg" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">classic</a></li>
+                      <li><a class="dropdown-item" href="#">Masonry</a></li>
+                      <li><a class="dropdown-item" href="#">Portfolio details</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      BLOG
+                    </a>
+                    <ul class="dropdown-menu lh-lg" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Blog Classic</a></li>
+                      <li><a class="dropdown-item" href="#">ABlog grid</a></li>
+                      <li><a class="dropdown-item" href="#">Blog single</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <div class="container">
+        <section class="body mt-5">
+            <div class="row text-light align-items-center fs-6">
+                <div class="col-lg-6">
+                    <h1>Getting More Traffic and New Customers
+                        </h1>
+                        <p>Search engine optimization is a critical component of online marketing. 
+                            At SEO.com we use a combination of the latest onsite 
+                            and off-site strategies to produce top results.</p>
+                            <button class="l-more">learn more</button>
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/gallery1.png" alt="" width="100%" height="580px">
+                </div>
+            </div>
+        </section>   
+    </div>
+    </section>
+    <svg class="curve" id="curveDownColor-header " xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 0 C 50 100 80 100 100 0 Z" />
+    </svg>
+    <section class="container">
+        <div class="row py-5">
+            <div class="col-lg-6 fs-6">
+                <h1 class="r-smart">Rank Smart</h1>
+                <h6 class="text-muted my-4 mt-5 lh-base fw-bold">Everything you need to build an amazing dealership automotive responsive website.</h6>
+                <p class="text-muted mb-4 lh-lg">Take advantage of SEO proven processes to receive ever more web traffic, customers, and profits. Outrank even your toughest competitors. 
+                    We specialise in intelligent & effective Search and believes.</p>
+                    <button class="l-more">learn more</button>
+            </div>
+            <div class="col-lg-6 respo">
+                <img src="img/img9.jpg" alt="" width="100%" class="rounded">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3"><div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="img/serch.png" alt="..." width="40">
+                </div>
+                <div class="flex-grow-1 ms-3 fs-6">
+                 <h6>Keyword Research</h6>
+                 <p>Established fact</p>
+                </div>
+              </div></div>
+            <div class="col-lg-3"><div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="img/rocket-3.png" alt="..." width="40">
+                </div>
+                <div class="flex-grow-1 ms-3 fs-6">
+                    <h6>Content Creation</h6>
+                    <p>Finibus bono</p>
+                </div>
+              </div></div>
+            <div class="col-lg-3"><div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="img/link-symbol.png" alt="..." width="40">
+                </div>
+                <div class="flex-grow-1 ms-3 fs-6">
+                    <h6>Link Building</h6>
+                    <p>Predefined chunks</p>
+                </div>
+              </div></div>
+            <div class="col-lg-3"><div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="img/target2.png" alt="..." width="40">
+                </div>
+                <div class="flex-grow-1 ms-3 fs-6">
+                    <h6>SEO Consulting</h6>
+                    <p>Popular belief</p>
+                </div>
+              </div></div>
+        </div>    
+    </section>
+    <svg class="curve2 mt-5" id="curveUpColor-section-edge" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 100 C 20 0 50 0 100 100 Z" />
+    </svg>
+    <section class="services">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-3 border-end">
+                <h1 class="count">1421</h1>
+                <h6 class="text-muted">PROJECTS DEVELOPED</h6>
+            </div>
+            <div class="col-lg-3 border-end">
+                <h1 class="count">2341
+                    </h1>
+                <h6 class="text-muted">HAPPY CUSTOMERS</h6>
+            </div>
+            <div class="col-lg-3 border-end">
+                <h1 class="count">511</h1>
+                <h6 class="text-muted">COMPANY AWARDS</h6>
+            </div>
+            <div class="col-lg-3">
+                <h1 class="count">33</h1>
+                <h6 class="text-muted">YEARS OF EXPERIENCE</h6>
+            </div>
+        </div>
+    </div>
+    </section>
+    <svg class="curve2" id="curveDownColor-section-edge" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path d="M0 0 C 50 100 80 100 100 0 Z" />
+    </svg>
+    <section class="container feature-box py-5">
+        <div class="row py-5 my-box text-center">
+            <div class="col-lg-4">
+                <div class="card shadow">
+                <img src="img/img12.jpg" alt="" width="100%">
+                <div class="py-4 fs-6">
+                <h4>Site Audit</h4>
+                <p>Getting the most effective keywords</p>
+               <a href="#" class="text-decoration-none fw-bold text-uppercase readMore">read more</a>
+                
+            </div>
+            </div>
+        </div>
+            <div class="col-lg-4">
+                <div class="card shadow">
+                <img src="img/img11.jpg" alt="" width="100%">
+                <div class="py-4 fs-6">
+                    <h4>SEO Analytics</h4>
+                    <p>Getting the most effective keywords</p>
+                    <a href="#" class="text-decoration-none fw-bold text-uppercase readMore">read more</a>
+                </div>
+            </div>
+        </div>
+            <div class="col-lg-4">
+                <div class="card shadow">
+                <img src="img/img13.jpg" alt="" width="100%">
+                <div class="py-4 fs-6">
+                    <h4>Web Optimization</h4>
+                    <p>Getting the most effective keywords</p>
+                    <a href="#" class="text-decoration-none fw-bold text-uppercase readMore">read more</a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    </section>
+    <section class="our-team container text-center">
+      <div class="head">
+       <h1 class="team">Our Team</h1>
+    <p class="text-muted my-5 fs-6">We specialise in intelligent & effective Search and believes in the power of partnerships to grow business.</p>
+      </div>
+          <div class="row text-start">
+    <div class="col-lg-4">
+        <p class="fst-italic text-primary">YOUR SATISFACTION DEFINES US</p>
+        <h3>WE FIND WAYS</h3>
+        <p class="fs-6">Established fact that a reader will be distracted by the readable content of a page when looking many desktop publishing packages and web page.</p>
+        <img src="img/signature.png" alt="" width="150">
+    </div>
+    <div class="col-lg-8">
+        <div class="owl-carousel or-team text-center">
+            <div class="item">
+                <div class="my-img-box">
+                <img src="img/profile.jpg" alt="">
+               </div>
+                <div class="profile text-center py-3">
+                    <h5>Michal Jones</h5>
+                    <p class="text-muted fs-6">CEO Advisor</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="my-img-box">
+                <img src="img/profile-3.jpg" alt="">
+                </div>
+                <div class="profile text-center py-3">
+                    <h5>Michal Jones</h5>
+                    <p class="text-muted fs-6">CEO Advisor</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="my-img-box">
+                <img src="img/profile-4.jpg" alt="">
+                </div>
+                <div class="profile text-center py-3">
+                    <h5>Michal Jones</h5>
+                    <p class="text-muted fs-6">CEO Advisor</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="my-img-box">
+                <img src="img/profile-5.jpg" alt="">
+                </div>
+                <div class="profile text-center py-3">
+                    <h5>Michal Jones</h5>
+                    <p class="text-muted fs-6">CEO Advisor</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="my-img-box">
+                <img src="img/profile-6.jpg" alt="">
+                </div>
+                <div class="profile text-center py-3">
+                    <h5>Michal Jones</h4>
+                    <p class="text-muted fs-6">CEO Advisor</p>
+                </div>
+            </div>
+            </div>
+    </div>
+</div>
+    </section>
+    <svg class="curve2 mt-5" id="curveUpColor-section-edge" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path d="M0 100 C 20 0 50 0 100 100 Z" />
+    </svg>
+    <section class="our-service">
+    <div class="container">
+    <div class="row text-center">
+        <div class="col-lg-6">
+            <div class="organic-pulsing-video ">
+                <div class="youtube-popup video-sec" data-listnum="1">
+                  <a href="https://www.youtube.com/watch?v=O1ZTTI0QXlA" class="popup-youtube">
+                      <figure class="video-image"><img src="img/img10.jpg" alt="" width="100%"></figure>
+                  </a>
+                  <div class="video-i"><i class="fas fa-play"></i></div>
+                </div>
+              </div> 
+    </div>
+    <div class="col-lg-6">
+        <div class="text-start pb-4">
+            <h2>What we can do for you</h2>
+            <p class="text-muted lh-base fs-6">Established fact that a reader will be distracted by the readable content of a page when looking many desktop publishing packages and web page.</p>
+        </div>
+        <div class="text-start">
+            <h6>SEO Optimization</h6>
+            <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            <p>90%</p>
+          </div>
+        </div>
+        <div class="text-start py-3">
+            <h6>Content Marketing</h6>
+            <div class="progress">
+            <div class="progress-bar1" role="progressbar" style="width: 88%;" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+            <p>88%</p>
+          </div>
+        </div>
+        <div class="text-start">
+            <h6>Social Media
+            </h6>
+            <div class="progress">
+            <div class="progress-bar2" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            <p>90%</p>
+          </div>
+        </div>
+    </div> 
+    </div>
+    </section>
+    <svg class="curve2" id="curveDownColor-section-edge" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 0 C 50 100 80 100 100 0 Z" />
+    </svg>
+    <section class="container text-center py-5">
+        <div class="head">
+            <h1 class="plan">Our Plans</h1>
+            <p class="text-muted mt-5 fs-6">We specialise in intelligent & effective Search and believes in the power of partnerships to grow business.</p>
+        </div>
+        <div class="row shadow py-4 px-5 text-center">
+            <div class="col-lg-4 border-end  px-5 plan-box">
+                <div class="img-box d-flex align-items-center justify-content-center">
+                <img src="img/cube.png" alt="" width="50">
+            </div>
+            <div class="box-cont py-3 fs-6">
+                <h5 class="clr">Basic Plan</h5>
+                <p>$<span class="fs-1 fw-bold">49</span> / month</p>
+                <div class="text-muted">
+                    <p>Content Optimization</p>
+                    <p>Startup Business Listings</p>
+                    <p>Search Engine Rank Report</p>
+                    <p>Backlinks Analysis</p>
+                    <p>Keyword Research</p>
+                    </div>
+                    <button class="o-now">Order now</button>
+            </div>
+            </div>
+            <div class="col-lg-4 border-end  px-5 plan-box">
+                <div class="img-box d-flex align-items-center justify-content-center">
+                <img src="img/rocket.png" alt="" width="50">
+            </div>
+            <div class="box-cont py-3 fs-6">
+                <h5 class="clr">Standard Plan</h5>
+                <p>$<span class="fs-1 fw-bold">69</span> / month</p>
+                <div class="text-mutedx">
+                    <p>Content Optimization</p>
+
+                    <p>Startup Business Listings</p>
+                    
+                    <p>Search Engine Rank Report</p>
+                    
+                    <p>Backlinks Analysis</p>
+                    <p>Keyword Research</p>
+                    </div>
+                    <button class="o-now">Order now</button>
+            </div>
+            </div>
+            <div class="col-lg-4  px-5 plan-box">
+                <div class="img-box d-flex align-items-center justify-content-center">
+                <img src="img/diamond.png" alt="" width="50">
+            </div>
+            <div class="box-cont py-3 fs-6">
+                <h5 class="clr">Premium Plan</h5>
+                <p>$<span class="fs-1 fw-bold">89</span> / month</p>
+                <div class="text-muted">
+                    <p>Content Optimization</p>
+                    <p>Startup Business Listings</p>
+                    
+                    <p>Search Engine Rank Report</p>
+                    
+                    <p>Backlinks Analysis</p>
+                    <p>Keyword Research</p>
+                    </div>
+                    <button class="o-now">Order now</button>
+            </div>
+            </div>
+        </div>
+        <div class="slider my-5">
+        <div class="owl-carousel client">
+            <div class="item">
+                <img src="img/client-1.png" alt="">
+              </div>
+            <div class="item">
+                <img src="img/client-2.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/client-3.png" alt="">
+               </div>
+            <div class="item">
+                <img src="img/client-4.png" alt="">
+             </div>
+            <div class="item">
+                <img src="img/client-5.png" alt="">   
+            </div>
+            <div class="item">
+                <img src="img/client-6.png" alt="">   
+            </div>
+            <div class="item">
+                <img src="img/client-7.png" alt="">   
+            </div>
+            <div class="item">
+                <img src="img/client-8.png" alt="">   
+            </div>
+            </div>
+        </div>
+    </section>
+    <svg class="curve" id="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 100 C 20 0 50 0 100 100 Z" />
+    </svg>
+    <section class="footer">
+       <div class="container py-4">
+           <div class="row text-light border-bottom  fs-6">
+               <div class="col-lg-3 mm pb-5">
+                   <img src="img/logo.png" alt="" width="110">
+                   <p class="py-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                   </p>
+                   <button class="l-more">learn more</button>
+               </div>
+               <div class="col-lg-2">
+                   <h5>POPULAR SITES</h5>
+                   <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><i class="fas fa-angle-right"></i><a href="" class="text-decoration-none fs-6">About Us</a></li>
+                    <li class="list-group-item"><i class="fas fa-angle-right"></i><a href="" class="text-decoration-none fs-6">Services</a></li>
+                    <li class="list-group-item"><i class="fas fa-angle-right"></i><a href="" class="text-decoration-none fs-6">Blogs</a></li>
+                    <li class="list-group-item"><i class="fas fa-angle-right"></i><a href="" class="text-decoration-none fs-6">Careers</a></li>
+                    <li class="list-group-item"><i class="fas fa-angle-right"></i><a href="" class="text-decoration-none fs-6">Faq</a></li>
+                  </ul>
+               </div>
+               <div class="col-lg-3 contact-us">
+                   <h5>CONTACT</h5>
+                   <div class="mt-4">
+                   <p>ADDDRES:  8273 NW 56TH ST MIAMI, FLORIDA, 33195 UNITED STATES</p>
+                   <p>PHONE:   + 0511 0000 3322</p>
+                   <p>EMAIL:   INFO@ROTZI.COM</p>
+                   <p>FAX:   + 0511 01220 3320</p>
+                </div>
+               </div>
+               <div class="col-lg-4">
+                   <h5>NEWSLETTER</h5>
+                   <div class="mt-4 nn">
+                       <p>Suscribe to our newsletter and get the lastest scoop right to your inbox!</p>
+                       <form>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Your email address" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <span class="" id="basic-addon2"><button class="l-more">Sign up</span>
+                          </div>
+                       </form>
+                       <p class="fst-italic">Your email is safe with us, we don't spam.</p>
+                   </div>
+               </div>
+           </div>
+           <div class="d-flex justify-content-between align-items-center py-4 text-light bottom-footer">
+               <div class="copyright">
+                   <p class="fs-6">© 2019 Rotzi Responsive SEO, PPC & SMM HTML Template</p>
+               </div>
+               <div class="links text-primary d-flex">
+                   <div class="bg-light rounded-circle p-2">
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="bg-light rounded-circle p-2 ms-2">
+                      <a href="#"><i class="fab fa-instagram-square"></i></a>
+                    </div>
+                    <div class="bg-light rounded-circle p-2 ms-2">
+                       <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="bg-light rounded-circle p-2 ms-2">
+                       <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+               </div>
+           </div>
+       </div>
+       <div class="go-to-top">
+        <a href="#" class="text-light"><i class="fas fa-chevron-up bg-danger"></i></a>
+    </div>
+    </section>
+    </div> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $('.or-team').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        500:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+$('.client').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        500:{
+            items:3
+        },
+        1000:{
+            items:6
+        }
+    }
+})
+function myFunc(){
+    setTimeout(showPage,3000);
+}
+function showPage(){
+    document.getElementById('lds-roller').style.display='none';
+    document.getElementById('main').style.display='block';
+}
+$(document).ready(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop() > 150)
+                {
+                    if($("nav").addClass("nav-head"))
+                    {
+                        document.getElementById('pp').innerHTML="<img src='img/logo-black.png' width='110'>"
+                    }
+                    $(".go-to-top").addClass("go-top");
+                }else{
+                    $("nav").removeClass("nav-head");
+                    document.getElementById('pp').innerHTML="<img src='img/logo.png' width='110'>"
+                    $(".go-to-top").removeClass("go-top");
+                }
+            })
+        })
+    </script>
+</body>
+</html>
